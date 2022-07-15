@@ -54,7 +54,7 @@ const subscribeRoute = async (req: NextApiRequest,res: NextApiResponse) => {
             payment_method_types: ['card'],
             billing_address_collection: 'required',
             line_items: [{
-                price:"price_1LIKnyGDhBjC2T0uNGwLAk4V",quantity:1
+                price:"price_1LKL5HGDhBjC2T0uCK59K5Jn",quantity:1
             }],
             mode: 'subscription',
             allow_promotion_codes: true,
