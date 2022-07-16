@@ -1,0 +1,21 @@
+{
+  "id": "7209deec-08e2-4bad-bf49-98b770ee7281",
+  "uid": "hic-voluptatem-iusto",
+  "type": "publication",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Reinvent interactive interfaces",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Voluptate magna nulla enim. Exercitation deserunt voluptate cupidatat ad.",
+        "spans": []
+      }
+    ]
+  }
+}
