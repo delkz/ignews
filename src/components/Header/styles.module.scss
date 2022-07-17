@@ -1,27 +1,43 @@
 .headerContainer{
-    height: 5rem;
+    @media screen and (min-width: 768px) {
+        height: 5rem;
+    }
     border-bottom: 1px solid var(--gray-800);
 }
 
 .headerContent{
     max-width: 1120px;
-    height: 5rem;
+    @media screen and (min-width: 768px) {
+        height: 5rem;
+        padding: 0 2rem;
+    }
+    @media screen and (max-width: 768px) {
+        flex-direction: column;   
+        padding: 1rem 2rem;
+    }
     margin: 0 auto;
-    padding: 0 2rem;
-
     display: flex;
     align-items: center;
 
     nav{
-        margin-left: 5rem;
-        height: 5rem;
+        @media screen and (min-width: 768px) {
+            margin-left: 5rem;
+            height: 5rem;
+        }
 
+        @media screen and (max-width: 768px) {
+         margin-top: 0.25rem;   
+        }
         a{
             display: inline-block;
             position: relative;
             padding: 0 0.5rem;
             height: 5rem;
             line-height: 5rem;
+            @media screen and (max-width: 768px) {
+                height: 3rem;
+                line-height: 3rem;
+            }
             color: var(--gray-300);
             transition: color 0.2s;
             &:hover{
@@ -48,7 +64,13 @@
     }
 
     button{
-        margin-left: auto;
+        @media screen and (min-width: 768px) {
+            margin-left: auto;
+        }
+        @media screen and (max-width: 768px) {
+            margin-top: 1rem;
+        }
+
     }
 }
 

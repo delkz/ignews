@@ -6,6 +6,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
 }
 .hero{
     max-width: 600px;
@@ -35,4 +40,12 @@
     button{
         margin-top: 2.5rem;
     }
+
+    @media screen and (max-width: 768px) {
+        + img{
+            margin-top: 2rem;
+            display: block;
+        }
+    }
+
 }
