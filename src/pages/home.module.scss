@@ -2,7 +2,13 @@
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 2rem;
-    height: calc(100vh - 5rem);
+    @media screen and (max-width: 768px) {
+        min-height: 100vh; 
+    }
+    @media screen and (min-width: 768px) {
+        height: calc(100vh - 5rem); 
+    }
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,6 +51,7 @@
         + img{
             margin-top: 2rem;
             display: block;
+            max-width: 100%;
         }
     }
 
